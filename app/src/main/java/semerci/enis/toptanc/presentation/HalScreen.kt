@@ -63,9 +63,9 @@ fun ProductItem(product: CKANRecord) {
             Text(text = "Mal Türü: ${product.MAL_TURU ?: "-"}")
             Text(text = "Mal Adı: ${product.MAL_ADI ?: "-"}")
             Text(text = "Birim: ${product.BIRIM ?: "-"}")
-            Text(text = "Asgari Fiyat: ${product.ASGARI_FIYAT ?: "-"}")
-            Text(text = "Azami Fiyat: ${product.AZAMI_FIYAT ?: "-"}")
-            Text(text = "Ortalama Fiyat: ${product.ORTALAMA_FIYAT ?: "-"}")
+            Text(text = "Asgari Fiyat: ${product.ASGARI_UCRET ?: "-"}")
+            Text(text = "Azami Fiyat: ${product.AZAMI_UCRET ?: "-"}")
+            Text(text = "Ortalama Fiyat: ${product.ORTALAMA_UCRET  ?: "-"}")
         }
     }
 }

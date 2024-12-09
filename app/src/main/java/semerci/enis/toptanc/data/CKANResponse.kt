@@ -25,7 +25,7 @@ data class CKANRecord(
     val MAL_TURU: String?,
     val MAL_ADI: String?,
     val BIRIM: String?,
-    val ASGARI_FIYAT: Int?,
-    val AZAMI_FIYAT: String?,
-    val ORTALAMA_FIYAT: String?
+    val ASGARI_UCRET: String?,
+    val AZAMI_UCRET: String?,
+    val ORTALAMA_UCRET: String?
 )
